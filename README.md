@@ -1,4 +1,4 @@
-# Laboratorio 1
+# Laboratorio 1 BackEnd
 ## Enunciado de la Tarea
 ### **Objetivo**
 Desarrollar una API REST utilizando Spring Boot que se conecte a una base de datos MySQL. La API debe permitir la gestión de un inventario de productos con los siguientes campos: id, name, description, price, y quantity. Además, deben realizar pruebas de la API utilizando Postman y entregar la tarea mediante GitHub Classroom con documentación detallada y capturas de pantalla descriptivas.
