@@ -8,8 +8,17 @@ Desarrollar una API REST utilizando Spring Boot que se conecte a una base de dat
 - Configura el proyecto para conectarse a una base de datos MySQL local o en la nube. En caso de utilizar la nuve optar por PostgreSQL Driver y Render.com
 #### 2. Modelo de Datos:
 - Crea una entidad `Product` con los siguientes campos:
-  - id (Long, autogenerado)
-  - name (String)
-  - description (String)
-  - price (double)
-  - quantity (int)
+  - `id` (Long, autogenerado)
+  - `name` (String)
+  - `description` (String)
+  - `price` (double)
+  - `quantity` (int)
+#### 3. Repositorio:
+- Crea un repositorio JPA para la entidad `Product`.
+#### 4. Controlador:
+- Implementa un controlador REST que permita realizar las siguientes operaciones:
+  - Crear un nuevo producto (POST `/products`)
+  - Obtener todos los productos (GET `/products`)
+  - Obtener un producto por su id (GET `/products/{id}`)
+  - Actualizar un producto existente (PUT `/products/{id}`)
+  - Eliminar un producto por su id (DELETE `/products/{id}`) 
