@@ -4,6 +4,8 @@
 Desarrollar una API REST utilizando Spring Boot que se conecte a una base de datos MySQL. La API debe permitir la gestión de un inventario de productos con los siguientes campos: id, name, description, price, y quantity. Además, deben realizar pruebas de la API utilizando Postman y entregar la tarea mediante GitHub Classroom con documentación detallada y capturas de pantalla descriptivas.
 ### **Requisitos**
 #### 1. Configuración del Proyecto:
+- **Haber realizado la actividad teórica sobre API y Spring Boot**
+- **Haber realizado la demo del video o la del .pdf**
 - Utiliza Spring Initializr para generar el proyecto Spring Boot con las dependencias necesarias: Spring Web, Spring Data JPA, Lombok, DevTools y MySQL Driver/PostgreSQL Driver.
 - Configura el proyecto para conectarse a una base de datos MySQL local o en la nube. En caso de utilizar la nube optar por PostgreSQL Driver y Render.com
 #### 2. Modelo de Datos:
